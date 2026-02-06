@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-anhanguera-primary: #f97316;
+  --color-anhanguera-secondary: #ea580c;
+  --color-dark-bg: #0d1b2a;
+  --color-dark-card: #1b263b;
+  --color-dark-text: #e0e1dd;
+}
+
+@layer base {
+  :root {
+    --bg: #F8FAFC;
+    --text: #1E293B;
+    --card: #FFFFFF;
+    --border: #E2E8F0;
+  }
+
+  .dark {
+    --bg: #0d1b2a;
+    --text: #e0e1dd;
+    --card: #1b263b;
+    --border: rgba(255, 255, 255, 0.1);
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 transition-colors duration-300 dark:bg-[#0d1b2a] dark:text-white;
+  }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  @apply bg-slate-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-400;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  @apply bg-slate-600;
+}

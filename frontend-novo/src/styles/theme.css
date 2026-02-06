@@ -1,0 +1,20 @@
+:root {
+  --anhanguera: #F37021;
+  --anhanguera-dark: #C4541A;
+  --anhanguera-light: #FCE9E2;
+
+  --text-primary: #1E293B;
+  --text-secondary: #475569;
+
+  --white: #FFFFFF;
+  --gray-100: #F1F5F9;
+  --border: #E2E8F0;
+}
+
+/* RESET BÁSICO */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

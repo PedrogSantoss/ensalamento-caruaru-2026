@@ -1,0 +1,178 @@
+:root {
+  --primary: #F37021;
+  --primary-dark: #C4541A;
+  --primary-light: #FFF1EA;
+
+  --bg: #F8FAFC;
+  --card: #FFFFFF;
+
+  --text: #1E293B;
+  --text-muted: #64748B;
+
+  --border: #E2E8F0;
+  --radius: 12px;
+}
+
+/* Body styles moved to index.css for Tailwind dark mode support */
+/* body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto;
+} */
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* HEADER */
+.header {
+  background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+  color: white;
+  padding: 14px 18px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);
+}
+
+/* CARDS */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: .2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.06);
+}
+
+/* GRADE */
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.dia-header {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* BOTÕES */
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+/* MODAL */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+/* ===== CARD DISCIPLINA ===== */
+
+.disc-card {
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #e5e7eb;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  transition: all .2s ease;
+}
+
+.disc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.08);
+}
+
+.disc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge-tipo {
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.badge-periodo {
+  background: #fff1ea;
+  color: #F37021;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.disc-nome {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.disc-tutor,
+.disc-sala {
+  font-size: 13px;
+  color: #475569;
+  margin: 0;
+}
+
+.btn-detalhes {
+  margin-top: 6px;
+  border: none;
+  background: #F37021;
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: .2s;
+}
+
+.btn-detalhes:hover {
+  background: #C4541A;
+}

@@ -1,0 +1,31 @@
+.grade {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.dia {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.dia-header {
+  background: var(--anhanguera-light);
+  color: var(--anhanguera-dark);
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-disciplina {
+  border: 1px solid var(--border);
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-disciplina:hover {
+  background: var(--anhanguera-light);
+}
