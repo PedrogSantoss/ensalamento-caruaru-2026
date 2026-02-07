@@ -15,7 +15,7 @@ export default function SelectLocationModal({ onSelect }) {
       id: 2,
       nome: "Anhanguera Unidade 2",
       cidade: "Caruaru - PE",
-      endereco: "Rua Rodrigues de Abreu – Maurício de Nassau"
+      endereco: "Rua Rodrigues de Abreu, 101 – Maurício de Nassau"
     }
   ];
 
@@ -31,7 +31,7 @@ export default function SelectLocationModal({ onSelect }) {
         {/* Header */}
         <div className="p-6 border-b border-slate-200 dark:border-white/5">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-1">Selecione sua Unidade</h2>
-          <p className="text-slate-500 dark:text-slate-400 text-sm">Escolha o campus para ver o cronograma</p>
+          <p className="text-slate-500 dark:text-slate-400 text-sm">Escolha a unidade para ver o cronograma</p>
         </div>
 
         {/* Search */}

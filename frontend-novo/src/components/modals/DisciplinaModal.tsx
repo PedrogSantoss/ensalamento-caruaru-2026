@@ -46,14 +46,20 @@ export default function DisciplinaModal({ disciplina, onClose, onEdit, isAdmin }
                     SEM AULA HOJE
                 </div>
             )}
-            <h2 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
-                {disciplina.nome}
-            </h2>
+            <div className="flex items-center gap-2">
+              <h2 className="text-2xl font-black text-slate-900 dark:text-white leading-tight">
+                  {disciplina.nome}
+              </h2>
+              <span className="text-xs px-2 py-0.5 rounded-full bg-orange-100 dark:bg-orange-500/20 text-orange-700 dark:text-orange-300 font-bold">
+                Período: {disciplina.periodo}
+              </span>
+            </div>
         </div>
 
         {/* Content Cards */}
         <div className="p-6 space-y-3">
             
+
             {/* Professor */}
             <div className="flex items-center gap-4 p-4 bg-slate-50 dark:bg-[#0d1b2a] rounded-2xl">
                 <div className="bg-blue-100 dark:bg-blue-500/10 p-3 rounded-full text-blue-600 dark:text-blue-400">

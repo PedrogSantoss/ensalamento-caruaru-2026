@@ -105,7 +105,7 @@ export default function CreateAvisoModal({ unidade, onClose, onCreate }) {
                   />
                   <div className="flex flex-col">
                     <span className="text-slate-900 dark:text-white text-sm font-bold">Enviar para Todas as Unidades</span>
-                    <span className="text-xs text-slate-500 dark:text-slate-400">Notificar alunos de todos os campus</span>
+                    <span className="text-xs text-slate-500 dark:text-slate-400">Notificar alunos de todas as unidades</span>
                   </div>
                 </label>
             </div>

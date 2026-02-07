@@ -137,7 +137,13 @@ export default function Cronograma({ unidade }: CronogramaProps) {
           >
             <option value="ALL" className="bg-white dark:bg-[#0d1b2a] text-slate-900 dark:text-white">Todos os períodos</option>
             {["1","2","3","4","5","6","7","8","9","10"].map(p => (
-              <option key={p} value={p} className="bg-white dark:bg-[#0d1b2a] text-slate-900 dark:text-white">{p}º Período</option>
+              <option
+                key={p}
+                value={p}
+                className="bg-white dark:bg-[#0d1b2a] text-slate-900 dark:text-white"
+              >
+                {p === "1" ? "1º Período (A/B)" : `${p}º Período`}
+              </option>
             ))}
           </select>
         </div>

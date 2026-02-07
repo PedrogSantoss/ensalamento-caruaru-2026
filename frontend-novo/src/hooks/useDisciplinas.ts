@@ -1,8 +1,8 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { DisciplinaAPI } from "../api/disciplinas.ts";
+import { DisciplinaAPI } from "../api/disciplinas.js";
 import type { Disciplina } from "../types";
 
-export function useDisciplinas(periodo: string, unidade_id?: string) {
+export function useDisciplinas(periodo: string, unidade_id?: string | number) {
 
   return useQuery({
     queryKey: ["disciplinas", periodo, unidade_id],
@@ -16,7 +16,7 @@ export function useAtualizarDisciplina() {
   const client = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ id, data }: { id: string; data: Partial<Disciplina> }) =>
+    mutationFn: ({ id, data }: { id: string | number; data: Partial<Disciplina> }) =>
       DisciplinaAPI.atualizar(id, data),
 
     onSuccess: () => {

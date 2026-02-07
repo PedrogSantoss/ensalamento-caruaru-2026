@@ -16,7 +16,7 @@ export default function Footer({ unidade }) {
             </div>
 
             <div className="mt-2">
-              <strong>Atendimento Secretária</strong>
+              <strong>Atendimento Secretária:</strong>
               <div><span role="img" aria-label="telefone" className="mr-2">📞</span>Secretaria: (81) 92004-9659</div>
               <div><span role="img" aria-label="telefone" className="mr-2">📞</span>CRA: 3003-4030</div>
             </div>

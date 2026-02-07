@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { AuthAPI } from "../api/auth.ts";
+import { AuthAPI } from "../api/auth.js";
 
 export function useAuth() {
 

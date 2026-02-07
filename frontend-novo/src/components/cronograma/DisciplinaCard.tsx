@@ -35,6 +35,11 @@ export default function DisciplinaCard({ disciplina, onClick }: DisciplinaCardPr
         <h3 className="font-bold text-slate-900 dark:text-white text-sm leading-tight line-clamp-2">
           {disciplina.nome}
         </h3>
+        <div className="flex items-center gap-2">
+          <span className="text-[10px] px-2 py-0.5 rounded-full bg-orange-100 dark:bg-orange-500/20 text-orange-700 dark:text-orange-300 font-bold">
+            Período: {disciplina.periodo}
+          </span>
+        </div>
         
         <div className="flex items-center gap-2">
             <span className={`w-2 h-2 rounded-full ${isPratica ? 'bg-green-500' : 'bg-blue-500'}`}></span>

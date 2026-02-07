@@ -1,4 +1,5 @@
 export default [
+   // ===================== UNIDADE 1 =====================
   // SEGUNDA
   { id: 1001, nome: "Pedagogia/Lic", tutor: "Rafael", periodo: "3", dia_semana: "SEGUNDA", sala: "Auditório", tipo: "teorica", unidade_id: 1, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
   { id: 1002, nome: "Biomedicina", tutor: "Jadson", periodo: "6/7", dia_semana: "SEGUNDA", sala: "Sala 02 (práticas)", tipo: "pratica", unidade_id: 1, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
@@ -71,4 +72,46 @@ export default [
   { id: 1090, nome: "CST's", tutor: "Wagna", periodo: "1", dia_semana: "SEXTA", sala: "Sala 05", tipo: "teorica", unidade_id: 1, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
   { id: 1091, nome: "Enf./Nutr./Fisio", tutor: "Jailson", periodo: "8", dia_semana: "SEXTA", sala: "Sala 11", tipo: "teorica", unidade_id: 1, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
   { id: 1092, nome: "Terapia Ocupacional", tutor: "Keicy Almeida", periodo: "1", dia_semana: "SEXTA", sala: "Sala 06", tipo: "teorica", unidade_id: 1, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" }
+  ,
+  // ===================== UNIDADE 2 =====================
+  // SEGUNDA
+  { id: 2001, nome: "Direito", tutor: "Polyanna", periodo: "1°A", dia_semana: "SEGUNDA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2002, nome: "Direito", tutor: "Paulo", periodo: "3", dia_semana: "SEGUNDA", sala: "Sala 04", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2003, nome: "Psicologia", tutor: "Rivaldo", periodo: "3", dia_semana: "SEGUNDA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2004, nome: "Psicologia", tutor: "Gorete", periodo: "4", dia_semana: "SEGUNDA", sala: "Sala 08", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2005, nome: "Psicologia", tutor: "Andrezza", periodo: "5", dia_semana: "SEGUNDA", sala: "Sala 01", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+
+  // TERÇA
+  { id: 2011, nome: "Direito", tutor: "Polyanna", periodo: "1°B", dia_semana: "TERÇA", sala: "Sala 06", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2012, nome: "Direito", tutor: "Paulo", periodo: "2", dia_semana: "TERÇA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2013, nome: "Direito", tutor: "Julyanna", periodo: "3", dia_semana: "TERÇA", sala: "Sala 03", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2014, nome: "Psicologia", tutor: "Katiuscia", periodo: "1", dia_semana: "TERÇA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2015, nome: "Psicologia", tutor: "Katiuscia", periodo: "2", dia_semana: "TERÇA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2016, nome: "Psicologia", tutor: "Jennyffer", periodo: "4", dia_semana: "TERÇA", sala: "Sala 08", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2017, nome: "Psicologia", tutor: "Gorete", periodo: "5", dia_semana: "TERÇA", sala: "Sala 01", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+
+  // QUARTA
+  { id: 2021, nome: "Direito", tutor: "Julyanna", periodo: "1°A", dia_semana: "QUARTA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2022, nome: "Direito", tutor: "Arijaldo", periodo: "1°B", dia_semana: "QUARTA", sala: "Sala 06", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2023, nome: "Direito", tutor: "Polyanna", periodo: "2", dia_semana: "QUARTA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2024, nome: "Psicologia", tutor: "Jennyffer", periodo: "3", dia_semana: "QUARTA", sala: "Sala 04", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2025, nome: "Psicologia", tutor: "Emanuella", periodo: "4", dia_semana: "QUARTA", sala: "Sala 08", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2026, nome: "Psicologia", tutor: "Rivaldo", periodo: "5", dia_semana: "QUARTA", sala: "Sala 01", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+
+  // QUINTA (Unidade 2 atualizada)
+  { id: 2031, nome: "Direito", tutor: "Julyanna", periodo: "2°", dia_semana: "QUINTA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2032, nome: "Direito", tutor: "Polyanna", periodo: "3°", dia_semana: "QUINTA", sala: "Sala 04", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2033, nome: "Psicologia", tutor: "Rivaldo", periodo: "1°", dia_semana: "QUINTA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2034, nome: "Psicologia", tutor: "Rivaldo", periodo: "2°", dia_semana: "QUINTA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2035, nome: "Psicologia", tutor: "Jennyffer", periodo: "3°", dia_semana: "QUINTA", sala: "Sala 06", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2036, nome: "Psicologia", tutor: "João", periodo: "4°", dia_semana: "QUINTA", sala: "Sala 08", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2037, nome: "Psicologia", tutor: "Emanuella", periodo: "5°", dia_semana: "QUINTA", sala: "Sala 01", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+
+  // SEXTA
+  { id: 2041, nome: "Direito", tutor: "Arijaldo", periodo: "1°A", dia_semana: "SEXTA", sala: "Sala 05", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2042, nome: "Direito", tutor: "Julyanna", periodo: "1°B", dia_semana: "SEXTA", sala: "Sala 06", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2043, nome: "Direito", tutor: "Barbara", periodo: "3", dia_semana: "SEXTA", sala: "Sala 04", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2044, nome: "Psicologia", tutor: "Anderson", periodo: "1", dia_semana: "SEXTA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2045, nome: "Psicologia", tutor: "Anderson", periodo: "2", dia_semana: "SEXTA", sala: "Sala 02", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" },
+  { id: 2046, nome: "Psicologia", tutor: "Erika", periodo: "5", dia_semana: "SEXTA", sala: "Sala 01", tipo: "teorica", unidade_id: 2, sem_aula: false, horario_inicio: "19:00", horario_fim: "22:00" }
 ];
